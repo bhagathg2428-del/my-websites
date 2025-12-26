@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://127.0.0.1:5500/my%20portfolio/my.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>MY PORTFOLIO</title>
+  
+<link rel="stylesheet" href="./MY PORTFOLIO_files/stylesheet.css"></head>
+<body>
+
+   
+      <header>
+        <h1>Welcome To My Portfolio</h1>
+        <a href="http://127.0.0.1:5500/my%20portfolio/my.html">
+        <button class="Button">About</button>
+      </a>
+      
+      <a href="http://127.0.0.1:5500/my%20portfolio/my.html">
+        <button class="Button">Skills</button>
+      </a>
+      <a href="http://127.0.0.1:5500/my%20portfolio/my.html">
+        <button class="Button">PROJECTS</button>
+      </a>
+      <a href="http://127.0.0.1:5500/my%20portfolio/my.html">
+        <button class="Button">CONTACT </button>
+      </a>
+
+      </header>
+
+
+      <main>
+        <section id="About">
+          <h1>BHAGATH GB</h1>
+      <img src="./MY PORTFOLIO_files/new1.jpeg">
+      <p>I am a AIML learner focased on web devlopment </p>
+      <p>i am currently studing in <em>GOVTo POLYTECHNIC</em> Bethamchella</p>
+      <p>I learn web devlopement from<strong> code with Swaroop</strong></p>
+  </section>
+        <section id="Skills" class="Skills">
+          <h1>MY SKILLS</h1>
+      <ol>
+        <li>PYTHON BASIC</li>
+        <li>JAVA BASIC</li>
+        <li>C BASIC </li>
+       <li>HTML,CSS,JA BASIC</li>
+        <li>DBMS,SQL,NOSQL</li>
+      </ol>
+
+        </section>
+        <section id="Projects">
+          <h1>Contact Me</h1>
+      <p>Feel free to get in touch with me using the below form</p>
+      <label for="in">Name:</label>
+      <input id="in" type="text">
+
+      <b>Choose your Gender:</b>
+        <input type="radio" id="rad">
+        <label for="rad">Male</label>
+
+        <input type="radio" id="rad1">
+       <label for="rad1">Female</label>
+
+  <br>
+    
+      <label for="in2">Email:</label>
+      <input id="input2" type="email">
+  <br>
+     <b>Select Your Intresrs:</b>
+        <input type="checkbox" id="coding">
+        <label for="coding">coding</label>
+
+         <input type="checkbox" id="Reading">
+          <label for="Reading">Reading</label>
+  <br>
+      <label for="bio" type="text">Bio(up to 200 Character):</label>
+      <input id="bio">
+  <br>
+      <button type="submit" class="submit">submit</button>
+
+  <br>
+
+        </section>
+
+      </main>
+
+
+      <footer>
+           @2025 My Portfolio
+      </footer>
+
+      
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+                             </body></html>
